@@ -1,0 +1,31 @@
+*
+{
+padding: 1rem;
+overflow-x: auto;
+}
+.head
+{
+    background-color:darkcyan;
+    color:white;
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+  
+   
+}
+tbody>tr:hover
+{
+    /* background-color: rgb(216, 210, 210); */
+    /* background-color: rgb(197, 238, 238); */
+    color:red;
+    transform: scale(1.005);
+    transition: transform 0.2s ;
+}
+@media (max-width: 600px) {
+   .container{
+      display: flex;
+      flex-wrap: wrap;
+      width: max-content;
+    }
+}
